@@ -111,16 +111,13 @@ When a new package version ships, update `version`, `specs`, `compatibility` and
 
 ## Configure customer support
 
-The support email is not set yet. Until it is, the Support page shows a clear "being set up" notice and the build prints a warning. **This blocks a complete Unity Publisher Profile.**
+The customer support email is `ztg.zero@gmail.com`, set in `data/site.json`:
 
-1. Create a support mailbox you will monitor.
-2. Set it in `data/site.json`:
+```json
+"supportEmail": "ztg.zero@gmail.com"
+```
 
-   ```json
-   "supportEmail": "support@your-real-domain"
-   ```
-
-3. Run `npm test` and push. The Support page then shows a `mailto:` link, and the tests check that it is the only email on the site. The validator rejects placeholder addresses such as `example.com`.
+The Support page shows it as a `mailto:` link, and the tests check that it is the only email on the site. To change it, edit that value, run `npm test` and push. The validator rejects placeholder addresses such as `example.com`. If the value is set to `null`, the Support page shows a "being set up" notice and the build prints a warning.
 
 ## Update Unity Asset Store links
 
@@ -144,10 +141,10 @@ Customer Support URL:
 https://ztgzero-studio.github.io/support.html
 
 Customer Support Email:
-<verified support email required>
+ztg.zero@gmail.com
 ```
 
-The support email is still missing. See [Configure customer support](#configure-customer-support).
+See [Configure customer support](#configure-customer-support) to change the support email.
 
 ## GitHub Pages deployment
 
