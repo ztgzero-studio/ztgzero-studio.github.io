@@ -1,0 +1,16 @@
+{
+  "name": "ztgzero-studio-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website of ZTG Studio, an independent publisher of game assets for Unity.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test tests/site.test.mjs",
+    "serve": "node scripts/serve.mjs",
+    "images": "python scripts/optimize-images.py"
+  }
+}

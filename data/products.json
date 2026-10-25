@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "internalId": "MON001",
+      "name": "Vorthak, the Mountain’s Wrath",
+      "shortName": "Vorthak",
+      "slug": "vorthak-the-mountains-wrath",
+      "seoTitleSuffix": "Rigged and Animated Rock Golem Boss for Unity",
+      "metaDescription": "Vorthak, the Mountain’s Wrath: a rigged, animated rock golem boss for Unity URP with Idle, Walk and Attack clips, 4K PBR textures, a prefab and a demo scene.",
+      "mediaKey": "vorthak",
+      "categories": ["monsters", "characters", "animations"],
+      "featured": true,
+      "availability": "coming-soon",
+      "availabilityNote": "Submitted to the Unity Asset Store. The purchase link will appear here once the listing is approved and live.",
+      "storeUrl": null,
+      "documentationUrl": null,
+      "version": "2.2",
+      "summary": "A rigged and animated rock golem boss for fantasy games, with Idle, Walk and forward-strike Attack clips, a 4K PBR URP material, a prefab, an Animator Controller and a demo scene.",
+      "description": [
+        "Vorthak is a large, stylized rock golem, about 3 m tall, built from cracked, moss-covered boulders with glowing lava seams, a gem set in its chest, horns and spiked shoulder pads.",
+        "It is made for boss encounters and heavy enemies in fantasy RPGs, JRPGs, action RPGs and dungeon settings. The package is set up for the Universal Render Pipeline: drop the prefab into a scene and the Animator Controller is ready to drive Idle, Walk and Attack."
+      ],
+      "highlights": [
+        { "value": "55,718", "label": "triangles" },
+        { "value": "20", "label": "bone Generic rig" },
+        { "value": "3", "label": "animation clips" },
+        { "value": "4K", "label": "PBR textures, URP" }
+      ],
+      "features": [
+        "One unique rock golem character model (55,718 triangles)",
+        "Generic skeletal rig with 20 bones, up to 4 bone influences per vertex",
+        "Three animation clips: Idle, Walk and a heavy forward-strike Attack",
+        "Unity-ready prefab with Animator, Skinned Mesh Renderer and URP material assigned",
+        "Animator Controller with a Speed (float) and an Attack (trigger) parameter",
+        "URP/Lit PBR material with 4096 × 4096 textures",
+        "Demo scene with Idle, Walk and Attack buttons",
+        "Real-world scale (2.97 m), pivot at the feet, facing +Z"
+      ],
+      "specs": [
+        { "label": "Triangles", "value": "55,718 (28,015 vertices)" },
+        { "label": "Meshes / prefabs", "value": "1 mesh, 1 prefab" },
+        { "label": "Level of detail", "value": "Single LOD (no LOD group)" },
+        { "label": "UV mapping", "value": "1 UV set" },
+        { "label": "Textures", "value": "3 maps: Base Color, Normal, Metallic-Smoothness" },
+        { "label": "Texture size", "value": "4096 × 4096 PNG" },
+        { "label": "Materials", "value": "URP/Lit, PBR metallic workflow (1 character material, 1 demo ground material)" },
+        { "label": "Normal map", "value": "Tangent space, OpenGL convention" },
+        { "label": "Model height", "value": "About 2.97 m (1 unit = 1 m)" },
+        { "label": "Pivot and facing", "value": "Ground level between the feet, faces +Z" }
+      ],
+      "rigging": [
+        { "label": "Rig type", "value": "Generic (Mecanim Generic animation type)" },
+        { "label": "Bones", "value": "20" },
+        { "label": "Skin influences", "value": "Up to 4 bones per vertex" },
+        { "label": "Humanoid retargeting", "value": "Not supported; clips are authored for this skeleton" }
+      ],
+      "animations": [
+        { "name": "Idle_01", "length": "3.0 s", "loop": true, "detail": "Slow breathing, a slight head turn and arm sway; feet stay planted." },
+        { "name": "Walk_01", "length": "2.0 s", "loop": true, "detail": "Heavy, slow walk cycle in place with weight shift and body bob." },
+        { "name": "Attack_01", "length": "2.0 s", "loop": false, "detail": "Forward strike with the right arm: torso twist and wind-up, a driving punch with a lean, an impact hold, then recovery to idle." }
+      ],
+      "animationNotes": "All clips run at 30 fps, in place, without root motion.",
+      "compatibility": [
+        { "label": "Tested with", "value": "Unity 6000.6.6f1 and Universal Render Pipeline 17.6 (Windows, PC renderer)" },
+        { "label": "Render pipeline", "value": "URP. Built-in and HDRP were not tested; the PBR textures can be reconnected to another pipeline’s material manually." },
+        { "label": "Required package", "value": "Universal Render Pipeline (com.unity.render-pipelines.universal)" },
+        { "label": "Asset Store dependencies", "value": "None" }
+      ],
+      "contents": [
+        { "path": "Models/", "detail": "Rigged FBX with the mesh, skeleton and the three animation clips" },
+        { "path": "Prefabs/", "detail": "Ready-to-use character prefab" },
+        { "path": "Controllers/", "detail": "Animator Controller with Idle, Walk and Attack states" },
+        { "path": "Materials/", "detail": "URP/Lit character material and a demo ground material" },
+        { "path": "Textures/", "detail": "Base Color, Normal and Metallic-Smoothness maps, 4096 × 4096 PNG" },
+        { "path": "Scenes/ and Scripts/", "detail": "Demo scene and its demo-only button controller script" },
+        { "path": "Documentation/", "detail": "README with setup and usage notes" }
+      ],
+      "limitations": [
+        "Generic rig only; Humanoid retargeting is not guaranteed.",
+        "A character art asset: no enemy AI, combat system, colliders or gameplay scripts.",
+        "No LODs and no mobile-specific optimisation. The 4K textures can be reduced in the import settings.",
+        "Animations are in place. The walk is a forward-kinematics cycle, so the planted foot slides slightly unless the character moves at a matching speed.",
+        "No Ambient Occlusion or Emission map; the lava glow is painted into the base color."
+      ],
+      "productionNotes": "The base mesh and its source PBR textures were generated with Tripo3D, an AI 3D-generation tool, from concept images. ZTG Studio then built the 20-bone skeleton, skin weights, all three hand-keyed animation clips and the geometry fixes in Blender, and set up the avatar, URP material, Animator Controller, prefab and demo scene in Unity.",
+      "documentation": "The package includes Documentation/README.md, which covers compatibility, the model, rig, animations and textures, placing the prefab, the Animator Controller, triggering animations from code, the demo scene, package contents and known limitations.",
+      "media": {
+        "card": ["card", "card-2x"],
+        "hero": "01-hero-three-quarter",
+        "spotlight": "05-closeup-details",
+        "video": { "key": "video", "poster": "01-hero-three-quarter", "caption": "Showcase rendered in Unity: turntable, Idle, Walk and Attack clips (38 s, no audio)." },
+        "gallery": [
+          { "key": "01-hero-three-quarter", "alt": "Vorthak, the Mountain’s Wrath, full body in a three-quarter front view, rest pose", "caption": "Three-quarter view, rest pose" },
+          { "key": "02-front-view", "alt": "Vorthak, the Mountain’s Wrath, full body front view showing the glowing chest gem", "caption": "Front view" },
+          { "key": "03-back-view", "alt": "Vorthak, the Mountain’s Wrath, full body back view with moss-covered rock plates", "caption": "Back view" },
+          { "key": "04-side-view", "alt": "Vorthak, the Mountain’s Wrath, side silhouette", "caption": "Side view" },
+          { "key": "05-closeup-details", "alt": "Close-up of Vorthak’s upper body: cracked rock, moss, spikes, lava seams and chest gem from the 4K textures", "caption": "Upper body close-up, 4K PBR textures" },
+          { "key": "06-rig-wireframe", "alt": "Vorthak’s mesh wireframe with the 20 labelled bones of its Generic rig", "caption": "Wireframe and 20-bone Generic rig" },
+          { "key": "07-attack-action", "alt": "Vorthak performing the Attack clip: wind-up and forward strike", "caption": "Attack_01 wind-up and forward strike" },
+          { "key": "08-unity-demo", "alt": "Vorthak in the included Unity demo scene in Play Mode, showing the Idle, Walk and Attack states", "caption": "Included demo scene in Unity Play Mode" },
+          { "key": "09-animations-overview", "alt": "Frames sampled from Vorthak’s Idle, Walk and Attack clips", "caption": "Frames from all three clips" }
+        ]
+      }
+    }
+  ]
+}

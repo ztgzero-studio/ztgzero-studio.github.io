@@ -1,0 +1,20 @@
+{
+  "name": "ZTG Studio",
+  "expandedName": "Zero to Gravity",
+  "type": "Independent Game Asset Publisher",
+  "url": "https://ztgzero-studio.github.io/",
+  "language": "en",
+  "tagline": "Production-Ready Assets for Game Creators",
+  "description": "ZTG Studio publishes game-ready 3D characters and creatures for Unity, each with a rig, animations, a URP material, a prefab and a demo scene.",
+  "supportEmail": null,
+  "unityPublisherUrl": null,
+  "socialImage": "images/products/vorthak/vorthak-social-1200x630.jpg",
+  "socialImageAlt": "Vorthak, the Mountain’s Wrath, a rock golem boss character by ZTG Studio",
+  "categories": [
+    { "id": "monsters", "label": "Monsters", "summary": "Bosses, creatures and enemies built for fantasy games." },
+    { "id": "characters", "label": "Characters", "summary": "Rigged, game-ready characters with Unity prefabs." },
+    { "id": "animations", "label": "Animations", "summary": "Hand-keyed animation clips set up with Animator Controllers." },
+    { "id": "props", "label": "Props", "summary": "Environment and gameplay props." },
+    { "id": "vfx", "label": "VFX", "summary": "Visual effects for gameplay and cinematics." }
+  ]
+}

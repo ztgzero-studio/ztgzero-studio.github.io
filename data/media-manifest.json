@@ -1,0 +1,157 @@
+{
+  "vorthak": {
+    "hero-transparent": [
+      {
+        "src": "images/products/vorthak/vorthak-hero-transparent-480.webp",
+        "width": 480,
+        "height": 637
+      },
+      {
+        "src": "images/products/vorthak/vorthak-hero-transparent-700.webp",
+        "width": 700,
+        "height": 930
+      },
+      {
+        "src": "images/products/vorthak/vorthak-hero-transparent-1200.webp",
+        "width": 1200,
+        "height": 1594
+      }
+    ],
+    "card": [
+      {
+        "src": "images/products/vorthak/vorthak-card-420.webp",
+        "width": 420,
+        "height": 280
+      }
+    ],
+    "card-2x": [
+      {
+        "src": "images/products/vorthak/vorthak-card-2x-840.webp",
+        "width": 840,
+        "height": 560
+      }
+    ],
+    "01-hero-three-quarter": [
+      {
+        "src": "images/products/vorthak/vorthak-01-hero-three-quarter-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-01-hero-three-quarter-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "02-front-view": [
+      {
+        "src": "images/products/vorthak/vorthak-02-front-view-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-02-front-view-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "03-back-view": [
+      {
+        "src": "images/products/vorthak/vorthak-03-back-view-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-03-back-view-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "04-side-view": [
+      {
+        "src": "images/products/vorthak/vorthak-04-side-view-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-04-side-view-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "05-closeup-details": [
+      {
+        "src": "images/products/vorthak/vorthak-05-closeup-details-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-05-closeup-details-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "06-rig-wireframe": [
+      {
+        "src": "images/products/vorthak/vorthak-06-rig-wireframe-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-06-rig-wireframe-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "07-attack-action": [
+      {
+        "src": "images/products/vorthak/vorthak-07-attack-action-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-07-attack-action-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "08-unity-demo": [
+      {
+        "src": "images/products/vorthak/vorthak-08-unity-demo-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-08-unity-demo-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "09-animations-overview": [
+      {
+        "src": "images/products/vorthak/vorthak-09-animations-overview-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "images/products/vorthak/vorthak-09-animations-overview-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "social": [
+      {
+        "src": "images/products/vorthak/vorthak-social-1200x630.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "video": [
+      {
+        "src": "images/products/vorthak/vorthak-showcase-1080p.mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}
